@@ -1,0 +1,20 @@
+@supports (grid-template-columns: subgrid){
+    html{
+        background-color: #f4f41d;
+        color: #fff;
+    }
+}
+
+@supports not (grid-template-columns: subgrid) {
+    html{
+        background-color: aqua;
+        color: #000;
+    }
+}
+
+@supports (display: flex){
+    html{
+        background-color: #000;
+        color: #fff;
+    }
+}
